@@ -35,7 +35,7 @@
 
 <?xml version="1.0" encoding="UTF-8" standalone="true"?>
 
--<addon provider-name="StreamStormTV" version="1.0" name="streamstorm repo" id="repository.streamstormtv">
+-<addon provider-name="StreamStormTV" version="1.0.2" name="streamstorm repo" id="repository.streamstormtv">
 
 
 -<extension name="streamstorm Addon Repository" point="xbmc.addon.repository">
