@@ -1,8 +1,10 @@
+
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="plugin.video.streamstormtv"
        name="StreamStormTV"
        version="1.0.2"
-       provider-name="Stream Storm TV">
+       provider-name="StreamStorm TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -27,38 +29,22 @@
     <description>
 	[COLOR white]We [COLOR red]DO NOT[/COLOR] own or host any of the content found in this directory. All streams are mirrored from external servers. We will try our best to keep all streams up to date[/COLOR]
 	[COLOR yellowgreen]Paypal Donations: [COLOR blue]streamstormtv@gmail.com[/COLOR]
-	
-    </description>
+	</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="true"?>
-
--<addon provider-name="StreamStormTV" version="1.0.2" name="streamstorm repo" id="repository.streamstormtv">
-
-
--<extension name="streamstorm Addon Repository" point="xbmc.addon.repository">
-
-<info compressed="false">https://raw.githubusercontent.com/streamstormtv/streamstormtvrepo/master/addons.xml</info>
-
-<checksum>https://raw.githubusercontent.com/streamstormtv/streamstormtvrepo/master/addons.xml.md5</checksum>
-
-<datadir zip="true">https://raw.githubusercontent.com/streamstormtv/streamstormtvrepo/master/zips</datadir>
-
-</extension>
-
-
--<extension point="xbmc.addon.metadata">
-
-<summary>Stream Storm Addon Repo</summary>
-
-<description>Addons brought to you by StreamStormTV</description>
-
-<platform>all</platform>
-
-</extension>
-
+<addon id="repository.streamstormtv" name="StreamStormTV Repo" version="1.0.0" provider-name="streamstormtvrepo">
+	<extension point="xbmc.addon.repository" name="StreamStorm Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/streamstormtv/streamstormtvrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/streamstormtv/streamstormtvrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/streamstormtv/streamstormtvrepo/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Stream Storm Addon Repo</summary>
+		<description>Addons brought to you by StreamStormTV</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 </addons>
