@@ -64,7 +64,7 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"url": "http://sources.streamstormtv.com/live.channels.xml", "fanart": "http://sources.streamstormtv.com/images/fanart.jpg", "genre": "Tv Live", "date": "01.09.2015", "credits": "DexterTV", "thumbnail": ""}]
+SOURCES = [{"url": "http://sources.streamstormtv.com/live.channels.xml", "fanart": "http://sources.streamstormtv.com/images/fanart.jpg", "genre": "Tv Live", "date": "01.09.2015", "credits": "StreamStormTV", "thumbnail": ""}]
 
 
     
